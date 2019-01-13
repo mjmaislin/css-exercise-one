@@ -1,36 +1,52 @@
-body
+/* body font size */
+body {
   font-size: 14px;
 }
 
+/* yellow nav bar attributes */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* section attributes */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* header 1 styles */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* example and header 3 attributes */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* header 3 font size*/
 h3 {
   font-size: 1.3em;
 }
 
+/* green div elements */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* blue div elements */
+.element-blue {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
